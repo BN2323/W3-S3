@@ -1,0 +1,51 @@
+/* TODO */
+
+body {
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between; 
+    align-items: center; 
+    height: 100vh; 
+    font-family: comic, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    background-image: url('chicken.jpg'); 
+    background-size: contain;
+}
+
+.container {
+    text-align: center;
+    flex-grow: 1; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+}
+
+.container h1 {
+    color: white;
+}
+
+#clickMeButton {
+    padding: 40px 90px;
+    font-size: 25px;
+    cursor: pointer;
+    font-family: comic, sans-serif;
+    margin-bottom: 20px; 
+    background-color: #3aa202;
+    color: white; 
+    border-radius: 75px; 
+    transition: background-color 0.3s; 
+    border-width: 10px;
+    border-color:#006100;
+}
+
+#clickMeButton:hover {
+    background-color: #005a0e;
+    border-color:#006100 
+}
+
+#count {
+    font-weight: bold;
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+}
